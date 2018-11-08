@@ -7,6 +7,11 @@
  * This file may be redistributed under the terms of the MIT license.
  * A copy of this license has been included with this distribution in the file LICENSE.
  */
+/*
+  This code requires the StepperDriver library to be installed.
+  It can be found here: https://github.com/laurb9/StepperDriver
+  Download as zip and import it with Sketch>Include Library>Add .zip library.
+*/
 #include <Arduino.h>
 
 // Motor steps per revolution. Most steppers are 200 steps or 1.8 degrees/step
